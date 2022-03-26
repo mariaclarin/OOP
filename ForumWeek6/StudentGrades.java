@@ -37,10 +37,10 @@ public class StudentGrades {
 
         //formula to find the average from the array
         int sum = 0;
-        for (int i = 0; i < numStudents; i++){
+        for (int i = 0; i < grades.length; i++){
             sum += grades[i];
         }
-        double average = sum / numStudents;
+        double average = sum / grades.length;
 
         //printing the output
         System.out.println("The average is : " + String.format("%.2f",average)); 

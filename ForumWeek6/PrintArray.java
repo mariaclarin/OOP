@@ -25,7 +25,7 @@ public class PrintArray {
         System.out.print("Enter the value of all items (separated by space) : ");
         //the array numbers takes the value of NUM_ITEMS and uses it as its array size
         numbers = new int[NUM_ITEMS];
-        
+
         //inserting the individual numbers into the array
         for (int i = 0; i < numbers.length; i++)
         {
