@@ -1,6 +1,4 @@
 package Practice2;
-import Practice2.Account;
-import Practice2.Circle;
 
 public class Driver {
     public static void main(String[] args){
