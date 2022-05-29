@@ -28,7 +28,7 @@ public class Account {
 
     //public method for deposits
     public boolean deposit(double amount){
-        //will only accepts deposits from $10 up to %10,000.
+        //will only accepts deposits from $10 up to $10,000.
         if (amount <=9){
             System.out.println("Deposit Failed. Minimum deposit is $10.");
             return false;
